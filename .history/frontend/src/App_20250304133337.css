@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-background: linear-gradient(#022d45, #18b0c7);
+    --secondary-background: linear-gradient(#5dcbde, #075366);
+    --tertiary-background: linear-gradient(#007182, #4ab4c7);
+}
+
+.main{
+    background: var(--primary-background);
+    font-family: "Roboto", sans-serif;
+}
+
+.btn{
+    background: var(--secondary-background);
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background: var(--primary-background);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.dashboard{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.sidebar{
+    background: var(--tertiary-background);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.btn1{
+    background: var(--secondary-background);
+    font-family: "Roboto", sans-serif;
+}

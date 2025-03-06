@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.dashboard {
+    min-height: 100vh; /* Default: Full viewport height */
+    margin-bottom: 70px;
+}
+  
+  @media (min-width: 1024px) { /* Large screens */
+    .dashboard {
+      min-height: auto; /* Normal height */
+    }
+  }
+  
+:root {
+    --primary-background: linear-gradient(#022d45, #18b0c7);
+    --secondary-background: linear-gradient(#5dcbde, #075366);
+    --tertiary-background: linear-gradient(#007182, #4ab4c7);
+    --four-background: linear-gradient(#075366, #5dcbde);
+}
+
+.main{
+    background: var(--primary-background);
+    font-family: "Roboto", sans-serif;
+}
+
+.btn{
+    background: var(--secondary-background);
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background: var(--primary-background);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.dashboard{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.sidebar{
+    background: var(--tertiary-background);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.btn1{
+    background: var(--secondary-background);
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.btn1:hover{
+    background: var(--four-background);
+}
+
+.dash{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.footer{
+    background: var(--secondary-background);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+    
+  }

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+:root {
+    --primary-background: linear-gradient(#022d45, #18b0c7);
+    --secondary-background: linear-gradient(#5dcbde, #022d45);
+}
+
+.main{
+    background: var(--primary-background);
+
+}
+
+.btn{
+    background: var(--secondary-background);
+}
