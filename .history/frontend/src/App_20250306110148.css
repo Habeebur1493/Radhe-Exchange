@@ -32,7 +32,6 @@ body {
   --secondary-background: linear-gradient(#5dcbde, #075366);
   --tertiary-background: linear-gradient(#007182, #4ab4c7);
   --four-background: linear-gradient(#075366, #5dcbde);
-  --fifth-background: linear-gradient(#2d6e7e, #022d45);
 }
 
 .main {
@@ -100,29 +99,8 @@ nav {
     font-size: 14px;
     font-weight: 500;
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
 }
 
 .btn2:hover{
-    background: var(--four-background);
-}
-
-.client{
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-}
-
-.btn3{
-  background:var(--secondary-background)
-}
-.btn3:hover{
-  background: var(--four-background);
-}
-
-.btnsp{
-  background: var(--fifth-background);
-}
-
-.popup{
-  background:var(--secondary-background)
+    background: var(--primary-background);
 }

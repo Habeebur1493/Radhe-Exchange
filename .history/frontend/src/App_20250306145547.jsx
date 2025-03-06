@@ -9,7 +9,6 @@ import Layout from "./components/Layout";
 import "./App.css";
 import UserLockPopup from "./components/UserLockPopup";
 import BetLockPopup from "./components/BetLockPopup";
-import SportAnalysis from "./components/SportAnalysis";
 
 const App = () => {
   return (

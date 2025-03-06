@@ -7,9 +7,6 @@ import Client from "./components/Client";
 import Home from "./components/Home";
 import Layout from "./components/Layout"; 
 import "./App.css";
-import UserLockPopup from "./components/UserLockPopup";
-import BetLockPopup from "./components/BetLockPopup";
-import SportAnalysis from "./components/SportAnalysis";
 
 const App = () => {
   return (
@@ -28,7 +25,6 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/client" element={<Client />} />
-        <Route path="/sportanalysis" element={<SportAnalysis />} />
       </Route>
     </Routes>
   );

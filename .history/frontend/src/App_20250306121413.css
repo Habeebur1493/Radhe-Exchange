@@ -115,14 +115,7 @@ nav {
 .btn3{
   background:var(--secondary-background)
 }
-.btn3:hover{
-  background: var(--four-background);
-}
 
 .btnsp{
   background: var(--fifth-background);
-}
-
-.popup{
-  background:var(--secondary-background)
 }
